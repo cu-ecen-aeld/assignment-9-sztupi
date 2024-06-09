@@ -1,0 +1,23 @@
+From 9a9b862870a315daba426faa628fb86784cfa0c3 Mon Sep 17 00:00:00 2001
+From: Attila Sztupak <mail@attila.sztupak.name>
+Date: Sun, 9 Jun 2024 19:43:17 +0100
+Subject: [PATCH] patch Makefile
+
+---
+ Makefile | 5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+
+diff --git a/Makefile b/Makefile
+index 7b08c49..c4f2e2e 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,8 +1,5 @@
+ 
+-SUBDIRS =  misc-progs misc-modules \
+-           skull scull scullc scullp lddbus sculld scullv shortprint simple tty \
+-	   pci usb\
+-	   sbull snull short
++SUBDIRS =  misc-modules scull
+ 
+ all: subdirs
+ 

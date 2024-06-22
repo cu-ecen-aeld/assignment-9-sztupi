@@ -9,7 +9,7 @@ SRC_URI = "git://git@github.com/cu-ecen-aeld/assignments-3-and-later-sztupi;prot
            file://aesdchar-start-stop"
 
 PV = "1.0+git${SRCPV}"
-SRCREV = "898bc9c304b7e41246dbdba154f5b5c7026c9a9e"
+SRCREV = "aa577fc4a3c55ed2e201e4d56eadd3d1d6c7769e"
 
 S = "${WORKDIR}/git/aesd-char-driver"
 
